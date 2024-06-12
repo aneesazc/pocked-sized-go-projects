@@ -100,3 +100,4 @@ func equalBooks(t *testing.T, books, target []Book) bool {
 	// Everything is equal!
 	return true
 }
+

@@ -11,5 +11,6 @@ func main() {
 		_, _ = fmt.Fprintf(os.Stderr, "error: %v\n", err)
 		os.Exit(1)
 	}
-	fmt.Println(bookworms)
+	commonBooks := findCommonBooks(bookworms)
+	fmt.Println("Common books:", commonBooks)
 }
